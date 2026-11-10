@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- PRIMARY SEO META TAGS -->
+  <title>Digital Marketing Tips & Strategies 2024 | Samarth Mathur</title>
+  <meta name="description" content="Discover proven digital marketing tips and strategies to grow your business online. Learn SEO, social media marketing, content strategy, and analytics from expert Samarth Mathur." />
+  <meta name="keywords" content="digital marketing tips, SEO strategies, social media marketing, content marketing, online marketing, digital marketing 2024, grow business online" />
+  <meta name="author" content="Samarth Sahab Mathur" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://samarthmathur.github.io/digital-marketing/" />
+
+  <!-- OPEN GRAPH / FACEBOOK -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://samarthmathur.github.io/digital-marketing/" />
+  <meta property="og:title" content="Digital Marketing Tips & Strategies 2024 | Samarth Mathur" />
+  <meta property="og:description" content="Proven digital marketing tips and strategies to grow your business online. Expert insights on SEO, social media, content marketing, and analytics." />
+  <meta property="og:image" content="https://samarthmathur.github.io/digital-marketing/assets/og-image.png" />
+
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Digital Marketing Tips & Strategies 2024" />
+  <meta name="twitter:description" content="Proven digital marketing strategies to grow your business online." />
+  <meta name="twitter:image" content="https://samarthmathur.github.io/digital-marketing/assets/og-image.png" />
+
+  <!-- STRUCTURED DATA (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Digital Marketing Tips & Strategies 2024",
+    "description": "Proven digital marketing tips and strategies to grow your business online.",
+    "author": {
+      "@type": "Person",
+      "name": "Samarth Sahab Mathur"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Samarth Mathur Digital",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://samarthmathur.github.io/digital-marketing/assets/logo.png"
+      }
+    },
+    "datePublished": "2024-11-01",
+    "dateModified": "2024-11-10"
+  }
+  </script>
+
+  <style>
+    /* ---- RESET & BASE ---- */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --primary:   #2563eb;
+      --primary-d: #1d4ed8;
+      --accent:    #f59e0b;
+      --bg:        #f8fafc;
+      --surface:   #ffffff;
+      --text:      #1e293b;
+      --muted:     #64748b;
+      --border:    #e2e8f0;
+      --radius:    0.75rem;
+      --shadow:    0 4px 24px rgba(37,99,235,.10);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    img { max-width: 100%; display: block; }
+    a   { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ---- SKIP LINK ---- */
+    .skip-link {
+      position: absolute; top: -100%; left: 1rem;
+      background: var(--primary); color: #fff;
+      padding: .5rem 1rem; border-radius: 0 0 .5rem .5rem;
+      transition: top .2s;
+    }
+    .skip-link:focus { top: 0; }
+
+    /* ---- HEADER / NAV ---- */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky; top: 0; z-index: 100;
+      box-shadow: 0 1px 8px rgba(0,0,0,.06);
+    }
+
+    .nav-inner {
+      max-width: 1100px; margin: auto;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: .9rem 1.5rem;
+    }
+
+    .logo {
+      font-size: 1.25rem; font-weight: 700; color: var(--primary);
+      letter-spacing: -.5px;
+    }
+    .logo span { color: var(--accent); }
+
+    nav ul {
+      list-style: none; display: flex; gap: 1.8rem;
+    }
+    nav a {
+      font-weight: 500; color: var(--text); font-size: .95rem;
+      transition: color .2s;
+    }
+    nav a:hover { color: var(--primary); text-decoration: none; }
+
+    /* ---- HERO ---- */
+    .hero {
+      background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 60%, #3b82f6 100%);
+      color: #fff;
+      padding: 5rem 1.5rem 4rem;
+      text-align: center;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: rgba(255,255,255,.18);
+      color: #fff; border: 1px solid rgba(255,255,255,.35);
+      border-radius: 999px; padding: .3rem 1rem;
+      font-size: .8rem; font-weight: 600; letter-spacing: .05em;
+      margin-bottom: 1.2rem; text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 800; line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    .hero h1 em {
+      font-style: normal;
+      background: linear-gradient(90deg, #fbbf24, #f59e0b);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      max-width: 640px; margin: 0 auto 2rem;
+      font-size: 1.1rem; opacity: .9;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--accent); color: #1e293b;
+      padding: .85rem 2rem; border-radius: 999px;
+      font-weight: 700; font-size: 1rem;
+      transition: transform .2s, box-shadow .2s;
+      box-shadow: 0 4px 14px rgba(245,158,11,.4);
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(245,158,11,.5);
+      text-decoration: none;
+    }
+
+    .hero-stats {
+      display: flex; justify-content: center; gap: 2.5rem;
+      margin-top: 3rem; flex-wrap: wrap;
+    }
+    .stat { text-align: center; }
+    .stat strong { display: block; font-size: 2rem; font-weight: 800; }
+    .stat span   { font-size: .85rem; opacity: .8; }
+
+    /* ---- SECTIONS ---- */
+    section { padding: 4rem 1.5rem; }
+    .container { max-width: 1100px; margin: auto; }
+
+    .section-label {
+      display: inline-block;
+      background: #eff6ff; color: var(--primary);
+      border-radius: 999px; padding: .25rem .9rem;
+      font-size: .78rem; font-weight: 700; letter-spacing: .06em;
+      text-transform: uppercase; margin-bottom: .6rem;
+    }
+
+    h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 800; margin-bottom: .4rem; }
+    h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: .5rem; }
+
+    .subheading { color: var(--muted); margin-bottom: 2.5rem; max-width: 580px; }
+
+    /* ---- STRATEGY CARDS ---- */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem; margin-top: 1rem;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.6rem;
+      transition: box-shadow .25s, transform .25s;
+    }
+    .card:hover { box-shadow: var(--shadow); transform: translateY(-3px); }
+
+    .card-icon {
+      font-size: 2rem; margin-bottom: .8rem;
+    }
+
+    .card p { color: var(--muted); font-size: .92rem; margin-top: .4rem; }
+
+    /* ---- TIPS LIST ---- */
+    #tips { background: var(--surface); }
+
+    .tips-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.4rem; margin-top: 1rem;
+    }
+
+    .tip-item {
+      display: flex; gap: 1rem;
+      background: var(--bg);
+      border-radius: var(--radius);
+      padding: 1.2rem;
+      border-left: 4px solid var(--primary);
+    }
+
+    .tip-num {
+      flex-shrink: 0;
+      width: 2rem; height: 2rem;
+      background: var(--primary);
+      color: #fff; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 800; font-size: .85rem;
+    }
+
+    .tip-item p { color: var(--muted); font-size: .9rem; margin-top: .2rem; }
+
+    /* ---- ABOUT ---- */
+    #about { background: var(--bg); }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem; align-items: center;
+    }
+
+    .about-img {
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, #2563eb, #1e3a8a);
+      height: 320px;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-size: 5rem;
+    }
+
+    .about-text p { color: var(--muted); margin-bottom: 1rem; }
+
+    .skills-list {
+      display: flex; flex-wrap: wrap; gap: .5rem;
+    }
+    .skill-tag {
+      background: #eff6ff; color: var(--primary);
+      border-radius: 999px; padding: .25rem .8rem;
+      font-size: .8rem; font-weight: 600;
+    }
+
+    /* ---- NEWSLETTER ---- */
+    #newsletter {
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      color: #fff; text-align: center;
+    }
+    #newsletter h2 { color: #fff; }
+    #newsletter p  { opacity: .85; margin: .5rem 0 1.8rem; }
+
+    .newsletter-form {
+      display: flex; gap: .5rem; justify-content: center; flex-wrap: wrap;
+      max-width: 500px; margin: auto;
+    }
+    .newsletter-form input {
+      flex: 1; min-width: 220px;
+      padding: .75rem 1.2rem; border: none;
+      border-radius: 999px; font-size: 1rem;
+      outline: none;
+    }
+    .newsletter-form button {
+      background: var(--accent); color: #1e293b;
+      border: none; padding: .75rem 1.6rem;
+      border-radius: 999px; font-weight: 700;
+      cursor: pointer; font-size: 1rem;
+      transition: opacity .2s;
+    }
+    .newsletter-form button:hover { opacity: .9; }
+
+    /* ---- FOOTER ---- */
+    footer {
+      background: #0f172a; color: #94a3b8;
+      padding: 2.5rem 1.5rem; text-align: center;
+    }
+    footer a { color: #94a3b8; }
+    footer a:hover { color: #fff; }
+    .footer-links { display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+
+    /* ---- RESPONSIVE ---- */
+    @media (max-width: 700px) {
+      .about-grid { grid-template-columns: 1fr; }
+      nav ul { gap: 1rem; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ACCESSIBILITY -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ===================== HEADER ===================== -->
+  <header>
+    <div class="nav-inner">
+      <div class="logo">Digital<span>Marketer</span></div>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="#strategies">Strategies</a></li>
+          <li><a href="#tips">Tips</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== MAIN ===================== -->
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Hero section">
+      <div class="hero-badge">🚀 Digital Marketing Guide 2024</div>
+      <h1>Master <em>Digital Marketing</em><br>Tips &amp; Strategies</h1>
+      <p>
+        Learn proven digital marketing strategies to grow your brand online,
+        attract more visitors, and convert leads into loyal customers.
+      </p>
+      <a href="#strategies" class="btn">Explore Strategies →</a>
+
+      <div class="hero-stats">
+        <div class="stat"><strong>10+</strong><span>Key Strategies</span></div>
+        <div class="stat"><strong>5K+</strong><span>Businesses Helped</span></div>
+        <div class="stat"><strong>98%</strong><span>Client Satisfaction</span></div>
+      </div>
+    </section>
+
+    <!-- STRATEGIES SECTION -->
+    <section id="strategies" aria-labelledby="strategies-heading">
+      <div class="container">
+        <span class="section-label">Core Pillars</span>
+        <h2 id="strategies-heading">Top Digital Marketing Strategies</h2>
+        <p class="subheading">Build a complete digital presence using these essential online marketing strategies for 2024.</p>
+
+        <div class="cards" role="list">
+
+          <article class="card" role="listitem">
+            <div class="card-icon" aria-hidden="true">🔍</div>
+            <h3>Search Engine Optimization (SEO)</h3>
+            <p>
+              Optimize your website content, keywords, and technical elements to rank higher on Google.
+              Focus on <strong>on-page SEO</strong>, backlinks, and Core Web Vitals.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card-icon" aria-hidden="true">📱</div>
+            <h3>Social Media Marketing</h3>
+            <p>
+              Engage your audience on Instagram, LinkedIn, and Facebook. Use short-form videos,
+              stories, and consistent posting schedules to boost organic reach.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card-icon" aria-hidden="true">✍️</div>
+            <h3>Content Marketing</h3>
+            <p>
+              Create valuable blog posts, videos, and infographics that answer your audience's questions.
+              Great content drives <strong>organic traffic</strong> and builds brand authority.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card-icon" aria-hidden="true">📧</div>
+            <h3>Email Marketing</h3>
+            <p>
+              Build a subscriber list and send targeted campaigns. Email marketing delivers
+              one of the highest ROI channels in digital marketing — averaging <strong>\$42 per \$1 spent</strong>.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card-icon" aria-hidden="true">📊</div>
+            <h3>Data & Analytics</h3>
+            <p>
+              Use Google Analytics, Search Console, and heatmaps to understand user behavior,
+              traffic sources, and conversion funnels to make data-driven decisions.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card-icon" aria-hidden="true">💰</div>
+            <h3>Pay-Per-Click Advertising (PPC)</h3>
+            <p>
+              Run targeted Google Ads and Meta Ads campaigns to drive instant traffic.
+              Combine PPC with organic SEO for a complete <strong>digital marketing strategy</strong>.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TIPS SECTION -->
+    <section id="tips" aria-labelledby="tips-heading">
+      <div class="container">
+        <span class="section-label">Actionable Advice</span>
+        <h2 id="tips-heading">10 Digital Marketing Tips to Grow Faster</h2>
+        <p class="subheading">These practical tips will help you improve your online marketing performance immediately.</p>
+
+        <div class="tips-grid">
+
+          <div class="tip-item">
+            <div class="tip-num" aria-hidden="true">1</div>
+            <div>
+              <h3>Conduct Thorough Keyword Research</h3>
+              <p>Use Google Keyword Planner or Ubersuggest to find high-intent, low-competition keywords your audience is actively searching for.</p>
+            </div>
+          </div>
+
+          <div class="tip-item">
+            <div class="tip-num" aria-hidden="true">2</div>
+            <div>
+              <h3>Optimize Your Page Speed</h3>
+              <p>A 1-second delay reduces conversions by 7%. Use Google PageSpeed Insights, compress images, and enable browser caching.</p>
+            </div>
+          </div>
+
+          <div class="tip-item">
+            <div class="tip-num" aria-hidden="true">3</div>
+            <div>
+              <h3>Create Mobile-First Content</h3>
+              <p>Over 60% of web traffic comes from mobile devices. Ensure your website is responsive and loads fast on smartphones.</p>
+            </div>
+          </div>
+
+          <div class="tip-item">
+            <div class="tip-num" aria-hidden="true">4</div>
+            <div>
+              <h3>Build Quality Backlinks</h3>
+              <p>Earn backlinks from authoritative websites through guest posting, digital PR, and creating shareable infographics.</p>
+            </div>
+          </div>
+
+          <div class="tip-item">
+            <div class="tip-num" aria-hidden="true">5</div>
+            <div>
+              <h3>Leverage Video Marketing</h3>
+              <p>Short-form videos on YouTube Shorts, Instagram Reels, and TikTok can dramatically increase brand visibility and engagement.</p>
+            </div>
+          </div>
+
+          <div class="tip-item">
+            <div class="tip-num" aria-hidden="true">6</div>
+            <div>
+              <h3>Use Schema Markup</h3>
+              <p>Add structured data (JSON-LD) to help search engines understand your content, enabling rich snippets in search results.</p>
+            </div>
+          </div>
+
+          <div class="tip-item">
+            <div class="tip-num" aria-hidden="true">7</div>
+            <div>
+              <h3>Track & Analyse Performance</h3>
+              <p>Set up Google Analytics 4 and Search Console. Monitor bounce rate, session duration, CTR, and conversion rate regularly.</p>
+            </div>
+          </div>
+
+          <div class="tip-item">
+            <div class="tip-num" aria-hidden="true">8</div>
+            <div>
+              <h3>Engage on Social Media Daily</h3>
+              <p>Reply to comments, participate in trending topics, and post consistently — aim for 3–5 posts per week per platform.</p>
+            </div>
+          </div>
+
+          <div class="tip-item">
+            <div class="tip-num" aria-hidden="true">9</div>
+            <div>
+              <h3>A/B Test Your Headlines & CTAs</h3>
+              <p>Small copy changes can yield big results. Test different headlines, button colors, and CTA text to find what converts best.</p>
+            </div>
+          </div>
+
+          <div class="tip-item">
+            <div class="tip-num" aria-hidden="true">10</div>
+            <div>
+              <h3>Repurpose Your Content</h3>
+              <p>Turn blog posts into social media carousels, YouTube videos into podcast episodes, and webinars into on-demand guides.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+
+          <figure class="about-img" role="img" aria-label="Profile illustration for Samarth Mathur">
+            👤
+          </figure>
+
+          <div class="about-text">
+            <span class="section-label">About the Author</span>
+            <h2 id="about-heading">Samarth Sahab Mathur</h2>
+            <p>
+              A passionate digital marketing enthusiast and student dedicated to helping individuals
+              and businesses build a powerful online presence through data-driven strategies.
+            </p>
+            <p>
+              This website was created as part of an academic assignment focused on
+              <strong>Webpage Development, SEO, and Digital Marketing Analytics</strong>,
+              applying real-world digital marketing techniques to a live web project.
+            </p>
+            <div class="skills-list" aria-label="Skills">
+              <span class="skill-tag">SEO Optimization</span>
+              <span class="skill-tag">Content Marketing</span>
+              <span class="skill-tag">Google Analytics</span>
+              <span class="skill-tag">Social Media</span>
+              <span class="skill-tag">Keyword Research</span>
+              <span class="skill-tag">Email Marketing</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter" aria-labelledby="newsletter-heading">
+      <div class="container">
+        <h2 id="newsletter-heading">Get Weekly Digital Marketing Tips</h2>
+        <p>Join 2,000+ marketers who receive actionable strategies every week. No spam, ever.</p>
+        <form class="newsletter-form" action="#" method="post" aria-label="Newsletter sign-up form">
+          <input type="email" name="email" placeholder="Your email address" aria-label="Email address" required />
+          <button type="submit">Subscribe →</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="footer-links">
+      <a href="#strategies">Strategies</a>
+      <a href="#tips">Tips</a>
+      <a href="#about">About</a>
+      <a href="#newsletter">Newsletter</a>
+    </div>
+    <p>
+      &copy; 2024 Samarth Sahab Mathur &mdash; Digital Marketing Tips &amp; Strategies.
+      Created for academic purposes.
+    </p>
+    <p style="margin-top:.5rem; font-size:.8rem;">
+      Built with semantic HTML5 &middot; Optimized for SEO &middot; Mobile Responsive
+    </p>
+  </footer>
+
+</body>
+</html>
